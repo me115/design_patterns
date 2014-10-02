@@ -1,0 +1,365 @@
+<Project version="3.0">
+<Name>main</Name>
+<Type>CUI</Type>
+<TargetName>main</TargetName>
+<TargetType>exe</TargetType>
+<Folder name="Source Files">
+	<File>main.cpp</File>
+</Folder>
+<Folder name="Header Files">
+</Folder>
+<Folder name="Other Files">
+</Folder>
+<Attribute topline="1" x="1" y="10">main.cpp</Attribute>
+<FolderState>111</FolderState>
+<DefConfig>mingw5</DefConfig>
+<Builder name="mingw5" type="MinGW" version="1.0" changed="1">
+	<TargetName>main</TargetName>
+	<TargetType>exe</TargetType>
+	<TargetDir>mingw5</TargetDir>
+	<InterimDir>mingw5</InterimDir>
+	<IncPaths endslash="0">
+		<Path>$(CFRoot)\mingw\include</Path>
+		<Path>$(CFRoot)\mingw\include\c++\3.4.5</Path>
+		<Path>$(CFRoot)\mingw\lib\gcc\mingw32\3.4.5\include</Path>
+		<Pattern>*\Include</Pattern>
+		<Pattern>*\Include\G++</Pattern>
+		<Pattern>*\Include\c++\?.?.?</Pattern>
+	</IncPaths>
+	<LibPaths>
+		<Path>$(CFRoot)\mingw\lib</Path>
+		<Path>$(CFRoot)\mingw\mingw32\lib</Path>
+		<Pattern>*\Lib</Pattern>
+	</LibPaths>
+	<ExePaths>
+		<Path>$(CFRoot)\mingw\bin</Path>
+		<Path>$(CFRoot)\mingw\mingw32\bin</Path>
+		<Pattern>*\Bin</Pattern>
+	</ExePaths>
+	<AutoDetect>
+		<Path>$(CFRoot)\mingw</Path>
+		<Path>C:\MinGW</Path>
+		<Path>D:\MinGW</Path>
+		<Path>E:\MinGW</Path>
+		<Path>F:\MinGW</Path>
+		<Path>G:\MinGW</Path>
+		<Path>C:\Dev-Cpp</Path>
+		<Path>D:\Dev-Cpp</Path>
+		<Path>E:\Dev-Cpp</Path>
+		<Path>F:\Dev-Cpp</Path>
+		<Path>G:\Dev-Cpp</Path>
+		<Reg>\SOFTWARE\Dev-C++|Install_Dir</Reg>
+		<Reg>\SOFTWARE\CodeBlocks|Path</Reg>
+		<Reg>\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MinGW_is1|Inno Setup: App Path</Reg>
+		<Reg>\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MinGW|InstallLocation</Reg>
+	</AutoDetect>
+	<CompilerOptions>
+		<Category name="C++ Language">
+			<Option value="-fno-for-scope" desc="Variables extends to the end of the for scope [-fno-for-scop]"/>
+			<Option value="-fno-default-inline" desc="Do not assume `inline' inside a class scope [-fno-default-inline]"/>
+			<Option value="-Wold-style-cast" desc="Warn if a C-style cast is used within a C++ program [-Wold-style-cast]"/>
+		</Category>
+		<Category name="C Language">
+			<Option value="-std=c89" desc="Compatible with standard iso9899:1990 (ISO C89) [-std=c89]"/>
+			<Option value="-std=c99" desc="ISO9899:1999 (ISO C99, this standard may be not yet fully supported) [-std=c99]"/>
+			<Option value="-std=gnu99" desc="ISO C99 plus GNU extensions [-std=gnu99]"/>
+			<Option value="-fno-asm" desc="Do not recognize asm, inline or typeof as a keyword [-fno-asm]"/>
+			<Option value="-fallow-single-precision" desc="Don't promote single precision math operations to double precision [-fallow-single-precision]"/>
+		</Category>
+		<Category name="Debugging">
+			<Option value="-g" desc="Produce debugging information for use by GDB [-g]"/>
+		</Category>
+		<Category name="Warnings">
+			<Option value="-w" desc="Inhibit all warning messages [-w]"/>
+			<Option value="-Wall" desc="Enable all compiler warnings [-Wall]"/>
+			<Option value="-Werror" desc="Make all warnings into errors [-Werror]"/>
+			<Option value="-Wformat" desc="Check calls to printf and scanf, etc. [-Wformat]"/>
+			<Option value="-Wmain" desc="Warn if the type of `main' is suspicious [-Wmain]"/>
+			<Option value="-Wreturn-type" desc="Warn if a function is defined with a return-type that defaults to int [-Wreturn-type]"/>
+			<Option value="-Wunused" desc="Combine all the `-Wunused' options [-Wunused]"/>
+			<Option value="-Wfloat-equal" desc="Warn if floating point values used in equality comparisons [-Wfloat-equal]"/>
+			<Option value="-Wunreachable-code" desc="Warn if there is code never be executed [-Wunreachable-code]"/>
+		</Category>
+		<Category name="Optimization">
+			<Option value="-O" desc="Optimize (for speed) [-O]"/>
+			<Option value="-O1" desc="Optimize more (for speed) [-O1]"/>
+			<Option value="-O2" desc="Optimize even more (for speed) [-O2]"/>
+			<Option value="-O3" desc="Optimize fully (for speed) [-O3]"/>
+			<Option value="-Os" desc="Optimize (for size) [-Os]"/>
+		</Category>
+		<RawOptionsDebug enabled="1">
+			<Default>-g -DDEBUG</Default>
+			<User>-g -DDEBUG</User>
+		</RawOptionsDebug>
+		<RawOptionsRelease enabled="0">
+			<Default>-O2</Default>
+			<User>-O2</User>
+		</RawOptionsRelease>
+	</CompilerOptions>
+	<LinkerOptions>
+		<LibsDebug enabled="1">
+			<Default>
+			</Default>
+			<User>
+			</User>
+		</LibsDebug>
+		<LibsRelease enabled="0">
+			<Default>
+			</Default>
+			<User>
+			</User>
+		</LibsRelease>
+		<RawOptionsDebug enabled="1">
+			<Default></Default>
+			<User></User>
+		</RawOptionsDebug>
+		<RawOptionsRelease enabled="0">
+			<Default>-s</Default>
+			<User>-s</User>
+		</RawOptionsRelease>
+	</LinkerOptions>
+	<Configs>
+		<BuildLog enabled="0">$(CFRoot)\Build.log</BuildLog>
+		<LibExt>lib;a</LibExt>
+		<ObjExt>o;obj</ObjExt>
+		<ResExt>res</ResExt>
+	</Configs>
+	<Commands msghandler="Gcc.mhr">
+		<Command name="C Compiler" io="1" rdos="0" sys="0">
+			<Program enabled="1">gcc.exe</Program>
+			<Parameter enabled="1">&quot;$(FileName)&quot; -c -o &quot;$(Path)$(Name).o&quot; $(CompilerOptions) -I$(IncPaths) -B$(ExePaths)</Parameter>
+			<FileExt enabled="1">c</FileExt>
+			<Target>$(PATH)$(NAME).o</Target>
+			<TargetType>o</TargetType>
+			<CurrentDir>$(FilePath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Compiling $(FILENAME)...#81001</MsgID>
+		</Command>
+		<Command name="C++ Compiler" io="1" rdos="0" sys="0">
+			<Program enabled="1">g++.exe</Program>
+			<Parameter enabled="1">&quot;$(FileName)&quot; -c -o &quot;$(Path)$(Name).o&quot; $(CompilerOptions) -I$(IncPaths) -B$(ExePaths)</Parameter>
+			<FileExt enabled="1">cpp;cxx;c++;cc</FileExt>
+			<Target>$(PATH)$(NAME).o</Target>
+			<TargetType>o</TargetType>
+			<CurrentDir>$(FilePath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Compiling $(FILENAME)...#81001</MsgID>
+		</Command>
+		<Command name="Linker(CUI)" io="1" rdos="0" sys="0">
+			<Program enabled="1">g++.exe</Program>
+			<Parameter enabled="1">$(ProjectFiles) -l$(Libs) -o &quot;$(Target)&quot; $(LinkerOptions) -L$(LibPaths) -B$(ExePaths)</Parameter>
+			<FileExt enabled="1">o;obj;a;lib;res</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType>cui</TargetType>
+			<CurrentDir>$(ProjectPath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Linking...#81002</MsgID>
+		</Command>
+		<Command name="Linker(GUI)" io="1" rdos="0" sys="0">
+			<Program enabled="1">g++.exe</Program>
+			<Parameter enabled="1">$(ProjectFiles) -l$(Libs) -o &quot;$(Target)&quot; $(LinkerOptions) -mwindows -L$(LibPaths) -B$(ExePaths)</Parameter>
+			<FileExt enabled="1">o;obj;a;lib;res</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType>gui</TargetType>
+			<CurrentDir>$(ProjectPath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Linking...#81002</MsgID>
+		</Command>
+		<Command name="Linker for DLL" io="1" rdos="0" sys="0">
+			<Program enabled="1">g++.exe</Program>
+			<Parameter enabled="1">-shared -Wl,--output-def=&quot;$(Path)$(Name).def&quot; -Wl,--out-implib=&quot;$(Path)$(Name).lib&quot; -Wl,--dll -L$(LibPaths) $(ProjectFiles) -o &quot;$(Target)&quot; $(LinkerOptions) -l$(Libs)</Parameter>
+			<FileExt enabled="1">o;obj;a;lib;res;def</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType>dll</TargetType>
+			<CurrentDir>$(ProjectPath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Linking...#81002</MsgID>
+		</Command>
+		<Command name="Linker for Lib" io="1" rdos="0" sys="0">
+			<Program enabled="1">ar.exe</Program>
+			<Parameter enabled="1">-r &quot;$(Target)&quot; $(ProjectFiles)</Parameter>
+			<FileExt enabled="1">o;obj</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType>lib</TargetType>
+			<CurrentDir>$(ProjectPath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Linking...#81002</MsgID>
+		</Command>
+		<Command name="Resource Compiler" io="1" rdos="0" sys="0">
+			<Program enabled="1">windres.exe</Program>
+			<Parameter enabled="1">-O coff -i &quot;$(ShortFileName)&quot; -o &quot;$(Path)$(Name).res&quot; --include-dir=$(ShortPath) --include-dir=$(IncPaths)</Parameter>
+			<FileExt enabled="1">rc</FileExt>
+			<Target>$(PATH)$(NAME).res</Target>
+			<TargetType>res</TargetType>
+			<CurrentDir>$(FilePath)</CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>Compiling $(FILENAME)...#81001</MsgID>
+		</Command>
+		<Command name="Debugger" io="0" rdos="0" sys="0">
+			<Program enabled="0">gdb.exe</Program>
+			<Parameter enabled="0">gdebug.dll</Parameter>
+			<FileExt enabled="0">*.*</FileExt>
+			<Target></Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>#81003</MsgID>
+		</Command>
+		<Command name="Run Exe" io="0" rdos="0" sys="0">
+			<Program enabled="0">$(Target)</Program>
+			<Parameter enabled="0">$(Parameters)</Parameter>
+			<FileExt enabled="1">exe</FileExt>
+			<Target></Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>#81004</MsgID>
+		</Command>
+		<Command name="Run DLL" io="0" rdos="0" sys="0">
+			<Program enabled="0">$(HostApp)</Program>
+			<Parameter enabled="0">$(Parameters)</Parameter>
+			<FileExt enabled="1">dll</FileExt>
+			<Target></Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>#81004</MsgID>
+		</Command>
+		<Command name="Run" io="0" rdos="0" sys="0">
+			<Program enabled="0">$(HostApp)</Program>
+			<Parameter enabled="0">$(Parameters)</Parameter>
+			<FileExt enabled="0">:exe;dll</FileExt>
+			<Target></Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID>#81004</MsgID>
+		</Command>
+		<Command name="Clean Objects" io="1" rdos="0" sys="0">
+			<Program enabled="0">fdel.exe</Program>
+			<Parameter enabled="1">&quot;$(Path)$(Name).o&quot; $(FileName)</Parameter>
+			<FileExt enabled="1">c;cpp;cxx;c++;cc</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID></MsgID>
+		</Command>
+		<Command name="Clean Resource" io="1" rdos="0" sys="0">
+			<Program enabled="0">fdel.exe</Program>
+			<Parameter enabled="1">&quot;$(Path)$(Name).res&quot; $(FileName)</Parameter>
+			<FileExt enabled="1">rc</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID></MsgID>
+		</Command>
+		<Command name="Clean Io" io="1" rdos="0" sys="0">
+			<Program enabled="0">fdel.exe</Program>
+			<Parameter enabled="0">&quot;$(Path)$(Name).o&quot; -silent</Parameter>
+			<FileExt enabled="0">*.*</FileExt>
+			<Target>$(Target)</Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID></MsgID>
+		</Command>
+		<Command name="Clean Target" io="1" rdos="0" sys="0">
+			<Program enabled="0">fdel.exe</Program>
+			<Parameter enabled="0">&quot;$(Target)&quot;</Parameter>
+			<FileExt enabled="1">*.*</FileExt>
+			<Target></Target>
+			<TargetType></TargetType>
+			<CurrentDir></CurrentDir>
+			<EnvVar></EnvVar>
+			<MsgID></MsgID>
+		</Command>
+	</Commands>
+	<Actions>
+		<Action name="Compile" depend="0">
+			<File>
+				<Command>"C Compiler""C++ Compiler""Resource Compiler"</Command>
+			</File>
+			<Project>
+			</Project>
+			<MsgID>Complete Compile $(FileName): $(Error) error(s), $(Warning) warning(s)\nGenerated $(Target)#81005</MsgID>
+			<ErrMsgID>Complete Compile $(FileName): $(Error) error(s), $(Warning) warning(s)#81006</ErrMsgID>
+			<PreAction></PreAction>
+			<PostAction con="0"></PostAction>
+		</Action>
+		<Action name="Build" depend="0">
+			<File>
+				<Command>"C Compiler""C++ Compiler""Resource Compiler"</Command>
+				<Command>"Linker(CUI)""Linker(GUI)""Linker for DLL""Linker for Lib"</Command>
+			</File>
+			<Project>
+				<Command>"C Compiler""C++ Compiler""Resource Compiler"</Command>
+				<Command>"Linker(CUI)""Linker(GUI)""Linker for DLL""Linker for Lib"</Command>
+			</Project>
+			<MsgID>Complete Build $(TargetName): $(Error) error(s), $(Warning) warning(s)\nGenerated $(Target)#81007</MsgID>
+			<ErrMsgID>Complete Build $(TargetName): $(Error) error(s), $(Warning) warning(s)#81008</ErrMsgID>
+			<PreAction></PreAction>
+			<PostAction con="0"></PostAction>
+		</Action>
+		<Action name="Make" depend="1">
+			<File>
+				<Command>"C Compiler""C++ Compiler""Resource Compiler"</Command>
+				<Command>"Linker(CUI)""Linker(GUI)""Linker for DLL""Linker for Lib"</Command>
+			</File>
+			<Project>
+				<Command>"C Compiler""C++ Compiler""Resource Compiler"</Command>
+				<Command>"Linker(CUI)""Linker(GUI)""Linker for DLL""Linker for Lib"</Command>
+			</Project>
+			<MsgID>Complete Make $(TargetName): $(Error) error(s), $(Warning) warning(s)\nGenerated $(Target)#81009</MsgID>
+			<ErrMsgID>Complete Make $(TargetName): $(Error) error(s), $(Warning) warning(s)#81010</ErrMsgID>
+			<PreAction></PreAction>
+			<PostAction con="0"></PostAction>
+		</Action>
+		<Action name="Run" depend="0">
+			<File>
+				<Action>"Make"</Action>
+				<Command>"Run Exe""Run DLL""Run"</Command>
+			</File>
+			<Project>
+				<Action>"Make"</Action>
+				<Command>"Run Exe""Run DLL""Run"</Command>
+			</Project>
+			<MsgID>#81011</MsgID>
+			<ErrMsgID>#81012</ErrMsgID>
+			<PreAction></PreAction>
+			<PostAction con="0"></PostAction>
+		</Action>
+		<Action name="Debug" depend="0">
+			<File>
+				<Action>"Make"</Action>
+				<Command>"Debugger"</Command>
+			</File>
+			<Project>
+				<Action>"Make"</Action>
+				<Command>"Debugger"</Command>
+			</Project>
+			<MsgID>#81013</MsgID>
+			<ErrMsgID>#81014</ErrMsgID>
+			<PreAction></PreAction>
+			<PostAction con="0"></PostAction>
+		</Action>
+		<Action name="Clean" depend="0">
+			<File>
+				<Command>"Clean Objects""Clean Resource"</Command>
+				<Command>"Clean Io"</Command>
+				<Command>"Clean Target"</Command>
+			</File>
+			<Project>
+				<Command>"Clean Objects""Clean Resource""Clean Io"</Command>
+				<Command>"Clean Io"</Command>
+				<Command>"Clean Target"</Command>
+			</Project>
+			<MsgID>Complete Clean $(TargetName)#81015</MsgID>
+			<ErrMsgID>Clean $(TargetName) error#81016</ErrMsgID>
+			<PreAction></PreAction>
+			<PostAction con="0"></PostAction>
+		</Action>
+	</Actions>
+</Builder>
+</Project>
