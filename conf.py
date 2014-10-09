@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'图说设计模式'
-copyright = u'2014, 大CC'
+copyright = u'2014, 大CC http://blog.me115.com'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -20,8 +20,8 @@
     
    read_xml
    creational_patterns/creational
-   structural_patterns/builder
-   behavioral_patterns/
+   structural_patterns/structural
+   behavioral_patterns/behavioral
     
 --------------------
 
