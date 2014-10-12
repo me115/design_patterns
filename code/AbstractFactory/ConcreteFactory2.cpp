@@ -13,8 +13,6 @@ ConcreteFactory2::ConcreteFactory2(){
 
 }
 
-
-
 ConcreteFactory2::~ConcreteFactory2(){
 
 }

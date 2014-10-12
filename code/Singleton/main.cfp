@@ -12,8 +12,8 @@
 </Folder>
 	<File>Singleton.cpp</File>
 	<File>Singleton.h</File>
-<Attribute topline="1" x="11" y="10">main.cpp</Attribute>
-<Attribute topline="31" x="1" y="35">Singleton.cpp</Attribute>
+<Attribute topline="1" x="28" y="7">main.cpp</Attribute>
+<Attribute topline="10" x="1" y="14">Singleton.cpp</Attribute>
 <Attribute topline="10" x="30" y="22">Singleton.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>

@@ -31,5 +31,8 @@
     
    simple_factory
    factory_method
+   abstract_factory
+   builder
+   singleton
 
 

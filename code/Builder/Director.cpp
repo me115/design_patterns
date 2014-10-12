@@ -7,20 +7,11 @@
 
 #include "Director.h"
 
-
 Director::Director(){
-
 }
-
-
 
 Director::~Director(){
-
 }
-
-
-
-
 
 Product* Director::constuct(){
 	m_pbuilder->buildPartA();

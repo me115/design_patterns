@@ -14,15 +14,9 @@ ConcreteFactory1::ConcreteFactory1(){
 
 }
 
-
-
 ConcreteFactory1::~ConcreteFactory1(){
 
 }
-
-
-
-
 
 AbstractProductA * ConcreteFactory1::createProductA(){
 	return new ProductA1();

@@ -28,21 +28,21 @@
 	<File>ProductB1.h</File>
 	<File>ProductB2.cpp</File>
 	<File>ProductB2.h</File>
-<Attribute topline="4" x="13" y="20">main.cpp</Attribute>
+<Attribute topline="4" x="7" y="15">main.cpp</Attribute>
 <Attribute topline="13" x="1" y="20">AbstractFactory.cpp</Attribute>
 <Attribute topline="1" x="1" y="12">AbstractFactory.h</Attribute>
 <Attribute topline="13" x="1" y="20">AbstractProductA.cpp</Attribute>
 <Attribute topline="1" x="1" y="17">AbstractProductA.h</Attribute>
 <Attribute topline="16" x="1" y="20">AbstractProductB.cpp</Attribute>
 <Attribute topline="1" x="25" y="18">AbstractProductB.h</Attribute>
-<Attribute topline="1" x="23" y="10">ConcreteFactory1.cpp</Attribute>
-<Attribute topline="10" x="1" y="14">ConcreteFactory1.h</Attribute>
-<Attribute topline="13" x="1" y="22">ConcreteFactory2.cpp</Attribute>
+<Attribute topline="10" x="1" y="11">ConcreteFactory1.cpp</Attribute>
+<Attribute topline="10" x="43" y="23">ConcreteFactory1.h</Attribute>
+<Attribute topline="1" x="1" y="15">ConcreteFactory2.cpp</Attribute>
 <Attribute topline="7" x="26" y="22">ConcreteFactory2.h</Attribute>
-<Attribute topline="1" x="24" y="13">ProductA1.cpp</Attribute>
-<Attribute topline="10" x="42" y="13">ProductA1.h</Attribute>
+<Attribute topline="7" x="1" y="16">ProductA1.cpp</Attribute>
+<Attribute topline="10" x="1" y="24">ProductA1.h</Attribute>
 <Attribute topline="16" x="1" y="17">ProductA2.cpp</Attribute>
-<Attribute topline="13" x="1" y="22">ProductB1.cpp</Attribute>
+<Attribute topline="16" x="1" y="22">ProductB1.cpp</Attribute>
 <Attribute topline="1" x="2" y="26">ProductB2.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
