@@ -20,13 +20,13 @@
 	<File>ConcreteDecoratorB.h</File>
 	<File>Decorator.cpp</File>
 	<File>Decorator.h</File>
-<Attribute topline="1" x="2" y="9">main.cpp</Attribute>
+<Attribute topline="4" x="53" y="12">main.cpp</Attribute>
 <Attribute topline="16" x="2" y="27">Component.cpp</Attribute>
 <Attribute topline="1" x="27" y="18">Component.h</Attribute>
-<Attribute topline="10" x="1" y="16">ConcreteComponent.cpp</Attribute>
+<Attribute topline="7" x="28" y="8">ConcreteComponent.cpp</Attribute>
 <Attribute topline="4" x="19" y="20">ConcreteComponent.h</Attribute>
-<Attribute topline="1" x="1" y="11">ConcreteDecoratorA.cpp</Attribute>
-<Attribute topline="4" x="1" y="20">ConcreteDecoratorA.h</Attribute>
+<Attribute topline="13" x="2" y="30">ConcreteDecoratorA.cpp</Attribute>
+<Attribute topline="10" x="25" y="14">ConcreteDecoratorA.h</Attribute>
 <Attribute topline="1" x="21" y="10">ConcreteDecoratorB.cpp</Attribute>
 <Attribute topline="1" x="1" y="13">ConcreteDecoratorB.h</Attribute>
 <Attribute topline="7" x="1" y="16">Decorator.cpp</Attribute>

@@ -20,14 +20,15 @@
 	<File>Implementor.h</File>
 	<File>RefinedAbstraction.cpp</File>
 	<File>RefinedAbstraction.h</File>
-<Attribute topline="1" x="50" y="12">main.cpp</Attribute>
+<Attribute topline="4" x="2" y="15">main.cpp</Attribute>
 <Attribute topline="13" x="17" y="30">Abstraction.cpp</Attribute>
-<Attribute topline="7" x="1" y="22">Abstraction.h</Attribute>
-<Attribute topline="10" x="1" y="27">ConcreteImplementorA.cpp</Attribute>
+<Attribute topline="4" x="1" y="22">Abstraction.h</Attribute>
+<Attribute topline="4" x="1" y="27">ConcreteImplementorA.cpp</Attribute>
+<Attribute topline="7" x="1" y="1">ConcreteImplementorA.h</Attribute>
 <Attribute topline="16" x="1" y="26">ConcreteImplementorB.cpp</Attribute>
 <Attribute topline="1" x="18" y="11">Implementor.h</Attribute>
-<Attribute topline="5" x="19" y="18">RefinedAbstraction.cpp</Attribute>
-<Attribute topline="1" x="32" y="19">RefinedAbstraction.h</Attribute>
+<Attribute topline="13" x="1" y="25">RefinedAbstraction.cpp</Attribute>
+<Attribute topline="10" x="3" y="23">RefinedAbstraction.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">

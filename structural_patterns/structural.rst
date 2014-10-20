@@ -37,8 +37,9 @@
 **目录**
 
 .. toctree::
-   :maxdepth: 2
-   :numbered: 2
+    :maxdepth: 2
+    :numbered: 2
     
-   simple_factory
-   factory_method
+    adapter
+    bridge
+    decorator
