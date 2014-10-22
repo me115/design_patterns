@@ -16,12 +16,12 @@
 	<File>Flyweight.h</File>
 	<File>FlyweightFactory.cpp</File>
 	<File>FlyweightFactory.h</File>
-<Attribute topline="4" x="18" y="11">main.cpp</Attribute>
-<Attribute topline="1" x="1" y="11">ConcreteFlyweight.cpp</Attribute>
-<Attribute topline="1" x="21" y="13">ConcreteFlyweight.h</Attribute>
-<Attribute topline="1" x="10" y="18">Flyweight.h</Attribute>
-<Attribute topline="16" x="59" y="33">FlyweightFactory.cpp</Attribute>
-<Attribute topline="19" x="1" y="27">FlyweightFactory.h</Attribute>
+<Attribute topline="1" x="16" y="17">main.cpp</Attribute>
+<Attribute topline="10" x="2" y="15">ConcreteFlyweight.cpp</Attribute>
+<Attribute topline="7" x="32" y="19">ConcreteFlyweight.h</Attribute>
+<Attribute topline="1" x="16" y="11">Flyweight.h</Attribute>
+<Attribute topline="13" x="3" y="26">FlyweightFactory.cpp</Attribute>
+<Attribute topline="7" x="1" y="27">FlyweightFactory.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">

@@ -14,15 +14,9 @@ ConcreteFlyweight::ConcreteFlyweight(string str){
 	intrinsicState = str;
 }
 
-
-
 ConcreteFlyweight::~ConcreteFlyweight(){
 
 }
-
-
-
-
 
 void ConcreteFlyweight::operation(){
 	cout << "Flyweight[" << intrinsicState << "] do operation." << endl; 

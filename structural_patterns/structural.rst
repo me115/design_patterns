@@ -43,3 +43,6 @@
     adapter
     bridge
     decorator
+    facade
+    flyweight
+    proxy

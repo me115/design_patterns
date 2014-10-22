@@ -28,22 +28,40 @@
 - FlyweightFactory: 享元工厂类
 
 
-.. image:: /_static/SimpleFactory.jpg
+.. image:: /_static/Flyweight.jpg
 
 
 时序图
 --------------------
-.. image:: /_static/seq_SimpleFactory.jpg
+.. image:: /_static/seq_Flyweight.jpg
 
 代码分析
 --------------------
-.. literalinclude:: /code/SimpleFactory/Factory.cpp
+.. literalinclude:: /code/Flyweight/main.cpp
    :language: cpp
    :linenos:
-   :lines: 1-10,24-
-   :emphasize-lines: 12-19
+   :lines: 1-
+   :emphasize-lines: 9-17
 
+.. literalinclude:: /code/Flyweight/FlyweightFactory.cpp
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 23-35
 
+.. literalinclude:: /code/Flyweight/ConcreteFlyweight.h
+   :language: cpp
+   :linenos:
+   :lines: 1-
+
+.. literalinclude:: /code/Flyweight/ConcreteFlyweight.cpp
+   :language: cpp
+   :linenos:
+   :lines: 1-
+
+运行结果：
+
+.. image:: /_static/Flyweight_run.jpg
 
 模式分析
 --------------------
@@ -102,7 +120,7 @@
 
 总结
 --------------------
-享元模式运用共享技术有效地支持大量细粒度对象的复用。系统只使用少量的对象，而这些对象都很相似，状态变化很小，可以实现对象的多次复用，它是一种对象结构型模式。
+- 享元模式运用共享技术有效地支持大量细粒度对象的复用。系统只使用少量的对象，而这些对象都很相似，状态变化很小，可以实现对象的多次复用，它是一种对象结构型模式。
 - 享元模式包含四个角色：抽象享元类声明一个接口，通过它可以接受并作用于外部状态；具体享元类实现了抽象享元接口，其实例称为享元对象；非共享具体享元是不能被共享的抽象享元类的子类；享元工厂类用于创建并管理享元对象，它针对抽象享元类编程，将各种类型的具体享元对象存储在一个享元池中。
 - 享元模式以共享的方式高效地支持大量的细粒度对象，享元对象能做到共享的关键是区分内部状态和外部状态。其中内部状态是存储在享元对象内部并且不会随环境改变而改变的状态，因此内部状态可以共享；外部状态是随环境改变而改变的、不可以共享的状态。
 - 享元模式主要优点在于它可以极大减少内存中对象的数量，使得相同对象或相似对象在内存中只保存一份；其缺点是使得系统更加复杂，并且需要将享元对象的状态外部化，而读取外部状态使得运行时间变长。

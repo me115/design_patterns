@@ -2,7 +2,6 @@
 #include "RealSubject.h"
 #include "Proxy.h"
 
-
 using namespace std;
 
 int main(int argc, char *argv[])
