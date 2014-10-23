@@ -18,13 +18,15 @@
 	<File>Invoker.h</File>
 	<File>Receiver.cpp</File>
 	<File>Receiver.h</File>
-<Attribute topline="1" x="2" y="19">main.cpp</Attribute>
+<Attribute topline="1" x="37" y="10">main.cpp</Attribute>
+<Attribute topline="4" x="1" y="1">Command.cpp</Attribute>
 <Attribute topline="1" x="25" y="18">Command.h</Attribute>
-<Attribute topline="13" x="1" y="22">ConcreteCommand.cpp</Attribute>
-<Attribute topline="10" x="29" y="18">ConcreteCommand.h</Attribute>
-<Attribute topline="4" x="2" y="14">Invoker.cpp</Attribute>
-<Attribute topline="5" x="9" y="19">Invoker.h</Attribute>
-<Attribute topline="10" x="2" y="22">Receiver.cpp</Attribute>
+<Attribute topline="16" x="2" y="26">ConcreteCommand.cpp</Attribute>
+<Attribute topline="10" x="25" y="20">ConcreteCommand.h</Attribute>
+<Attribute topline="7" x="22" y="20">Invoker.cpp</Attribute>
+<Attribute topline="5" x="9" y="21">Invoker.h</Attribute>
+<Attribute topline="1" x="2" y="22">Receiver.cpp</Attribute>
+<Attribute topline="1" x="22" y="16">Receiver.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">

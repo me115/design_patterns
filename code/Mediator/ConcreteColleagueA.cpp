@@ -10,13 +10,9 @@
 using namespace std;
 
 ConcreteColleagueA::ConcreteColleagueA(){
-
 }
 
-
-
 ConcreteColleagueA::~ConcreteColleagueA(){
-
 }
 
 void ConcreteColleagueA::sendmsg(int toWho,string str){

@@ -12,21 +12,16 @@ ConcreteSubject::ConcreteSubject(){
 
 }
 
-
-
 ConcreteSubject::~ConcreteSubject(){
 
 }
 
 
-
-
-
-void ConcreteSubject::getState(){
-
+int ConcreteSubject::getState(){
+	return m_nState;
 }
 
 
-void ConcreteSubject::setState(){
-
+void ConcreteSubject::setState(int i){
+	m_nState = i;
 }

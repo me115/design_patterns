@@ -27,21 +27,53 @@
 - ConcreteObserver: 具体观察者
 
 
-.. image:: /_static/SimpleFactory.jpg
+.. image:: /_static/Obeserver.jpg
 
 
 时序图
 --------------------
-.. image:: /_static/seq_SimpleFactory.jpg
+.. image:: /_static/seq_Obeserver.jpg
 
 代码分析
 --------------------
-.. literalinclude:: /code/SimpleFactory/Factory.cpp
+.. literalinclude:: /code/Obeserver/main.cpp
    :language: cpp
    :linenos:
-   :lines: 1-10,24-
-   :emphasize-lines: 12-19
+   :lines: 1-
+   :emphasize-lines: 11-23
 
+.. literalinclude:: /code/Obeserver/Subject.h
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 23-25,31
+
+.. literalinclude:: /code/Obeserver/Subject.cpp
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 18-41
+
+.. literalinclude:: /code/Obeserver/Obeserver.h
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 11
+
+.. literalinclude:: /code/Obeserver/ConcreteObeserver.h
+   :language: cpp
+   :linenos:
+   :lines: 1-
+
+.. literalinclude:: /code/Obeserver/ConcreteObeserver.cpp
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 22-25
+
+运行结果：
+
+.. image:: /_static/Obeserver_run.jpg
 
 
 模式分析

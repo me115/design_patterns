@@ -7,22 +7,20 @@
 
 #if !defined(EA_7B020534_BFEA_4c9e_8E4C_34DCE001E9B1__INCLUDED_)
 #define EA_7B020534_BFEA_4c9e_8E4C_34DCE001E9B1__INCLUDED_
-
 #include "Obeserver.h"
-#include "ConcreteSubject.h"
+#include <string>
+using namespace std;
 
 class ConcreteObeserver : public Obeserver
 {
 
 public:
-	ConcreteObeserver();
+	ConcreteObeserver(string name);
 	virtual ~ConcreteObeserver();
-	ConcreteSubject *m_ConcreteSubject;
-
-	void update();
+	virtual void update(Subject * sub);
 
 private:
-	int obeserverState;
-
+	string m_objName;
+	int m_obeserverState;
 };
 #endif // !defined(EA_7B020534_BFEA_4c9e_8E4C_34DCE001E9B1__INCLUDED_)

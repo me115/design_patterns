@@ -14,12 +14,9 @@ ConcreteMediator::ConcreteMediator(){
 
 }
 
-
-
 ConcreteMediator::~ConcreteMediator(){
 
 }
-
 
 void ConcreteMediator::operation(int nWho,string str){
 	map<int,Colleague*>::const_iterator itr = m_mpColleague.find(nWho);

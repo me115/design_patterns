@@ -30,38 +30,72 @@
 - ConcreteColleague: 具体同事类
 
 
-.. image:: /_static/SimpleFactory.jpg
+.. image:: /_static/Mediator.jpg
 
 
 时序图
 --------------------
-.. image:: /_static/seq_SimpleFactory.jpg
+.. image:: /_static/seq_Mediator.jpg
 
 代码分析
 --------------------
-.. literalinclude:: /code/SimpleFactory/Factory.cpp
+.. literalinclude:: /code/Mediator/main.cpp
    :language: cpp
    :linenos:
-   :lines: 1-10,24-
-   :emphasize-lines: 12-19
+   :lines: 1-
+   :emphasize-lines: 10-19
 
+.. literalinclude:: /code/Mediator/ConcreteMediator.h
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 23-26
+
+.. literalinclude:: /code/Mediator/ConcreteMediator.cpp
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 21-42
+
+.. literalinclude:: /code/Mediator/ConcreteColleagueA.h
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 20-21
+
+.. literalinclude:: /code/Mediator/ConcreteColleagueA.cpp
+   :language: cpp
+   :linenos:
+   :lines: 1-
+   :emphasize-lines: 18-25
+
+运行结果：
+
+.. image:: /_static/Mediator_run.jpg
 
 
 模式分析
 --------------------
-中介者模式可以使对象之间的关系数量急剧减少：
+中介者模式可以使对象之间的关系数量急剧减少。
 
 中介者承担两方面的职责：
 
 - 中转作用（结构性）：通过中介者提供的中转作用，各个同事对象就不再需要显式引用其他同事，当需要和其他同事进行通信时，通过中介者即可。该中转作用属于中介者在结构上的支持。
 - 协调作用（行为性）：中介者可以更进一步的对同事之间的关系进行封装，同事可以一致地和中介者进行交互，而不需要指明中介者需要具体怎么做，中介者根据封装在自身内部的协调逻辑，对同事的请求进行进一步处理，将同事成员之间的关系行为进行分离和封装。该协调作用属于中介者在行为上的支持。
 
+.. image:: /_static/Mediator_eg.jpg
+
+
+时序图
+
+.. image:: /_static/seq_Mediator_eg.jpg
+
 
 实例
 --------------------
 实例：虚拟聊天室
-- 某论坛系统欲增加一个虚拟聊天室，允许论坛会员通过该聊天室进行信息交流，普通会员(CommonMember)可以给
-其他会员发送文本信息，钻石会员(DiamondMember)既可以给其他会员发送文本信息，还可以发送图片信息。该聊天室可以对不雅字符进行过滤，如“日”等字符；还可以对发送的图片大小进行控制。用中介者模式设计该虚拟聊天室。
+
+某论坛系统欲增加一个虚拟聊天室，允许论坛会员通过该聊天室进行信息交流，普通会员(CommonMember)可以给其他会员发送文本信息，钻石会员(DiamondMember)既可以给其他会员发送文本信息，还可以发送图片信息。该聊天室可以对不雅字符进行过滤，如“日”等字符；还可以对发送的图片大小进行控制。用中介者模式设计该虚拟聊天室。
 
 
 优点
@@ -88,7 +122,7 @@
 - 系统中对象之间存在复杂的引用关系，产生的相互依赖关系结构混乱且难以理解。
 - 一个对象由于引用了其他很多对象并且直接和这些对象通信，导致难以复用该对象。
 - 想通过一个中间类来封装多个类中的行为，而又不想生成太多的子类。可以通过引入中介者类来实现，在中介者中定义对象。
-交互的公共行为，如果需要改变行为则可以增加新的中介者类。
+- 交互的公共行为，如果需要改变行为则可以增加新的中介者类。
 
 
 模式应用

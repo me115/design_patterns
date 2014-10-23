@@ -20,17 +20,17 @@
 	<File>ConcreteMediator.h</File>
 	<File>Mediator.cpp</File>
 	<File>Mediator.h</File>
-<Attribute topline="4" x="2" y="20">main.cpp</Attribute>
+<Attribute topline="4" x="18" y="12">main.cpp</Attribute>
 <Attribute topline="15" x="1" y="23">Colleague.cpp</Attribute>
 <Attribute topline="16" x="1" y="22">Colleague.h</Attribute>
-<Attribute topline="16" x="36" y="24">ConcreteColleagueA.cpp</Attribute>
-<Attribute topline="7" x="2" y="21">ConcreteColleagueA.h</Attribute>
+<Attribute topline="10" x="1" y="26">ConcreteColleagueA.cpp</Attribute>
+<Attribute topline="7" x="19" y="20">ConcreteColleagueA.h</Attribute>
 <Attribute topline="16" x="30" y="29">ConcreteColleagueB.cpp</Attribute>
 <Attribute topline="10" x="38" y="21">ConcreteColleagueB.h</Attribute>
-<Attribute topline="19" x="16" y="33">ConcreteMediator.cpp</Attribute>
-<Attribute topline="13" x="25" y="24">ConcreteMediator.h</Attribute>
+<Attribute topline="28" x="1" y="20">ConcreteMediator.cpp</Attribute>
+<Attribute topline="13" x="32" y="28">ConcreteMediator.h</Attribute>
 <Attribute topline="7" x="1" y="8">Mediator.cpp</Attribute>
-<Attribute topline="4" x="79" y="15">Mediator.h</Attribute>
+<Attribute topline="13" x="79" y="15">Mediator.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">

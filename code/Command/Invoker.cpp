@@ -13,15 +13,9 @@ Invoker::Invoker(Command * pCommand){
 	m_pCommand = pCommand;
 }
 
-
-
 Invoker::~Invoker(){
 
 }
-
-
-
-
 
 void Invoker::call(){
 	cout << "invoker calling" << endl;

@@ -17,11 +17,11 @@ public:
 	ConcreteSubject();
 	virtual ~ConcreteSubject();
 
-	void getState();
-	void setState();
+	virtual int getState();
+	virtual void setState(int i);
 
 private:
-	int state;
+	int m_nState;
 
 };
 #endif // !defined(EA_13122F7D_1635_4e20_ADC6_87933BB1B603__INCLUDED_)

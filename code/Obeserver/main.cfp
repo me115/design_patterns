@@ -18,10 +18,18 @@
 	<File>Obeserver.h</File>
 	<File>Subject.cpp</File>
 	<File>Subject.h</File>
-<Attribute topline="1" x="1" y="10">main.cpp</Attribute>
+<Attribute topline="7" x="2" y="16">main.cpp</Attribute>
+<Attribute topline="10" x="49" y="24">ConcreteObeserver.cpp</Attribute>
+<Attribute topline="10" x="24" y="14">ConcreteObeserver.h</Attribute>
+<Attribute topline="1" x="1" y="28">ConcreteSubject.cpp</Attribute>
+<Attribute topline="4" x="18" y="17">ConcreteSubject.h</Attribute>
+<Attribute topline="1" x="2" y="14">Obeserver.cpp</Attribute>
+<Attribute topline="4" x="14" y="17">Obeserver.h</Attribute>
+<Attribute topline="28" x="2" y="32">Subject.cpp</Attribute>
+<Attribute topline="12" x="1" y="22">Subject.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
-<Builder name="mingw5" type="MinGW" version="1.0" changed="1">
+<Builder name="mingw5" type="MinGW" version="1.0">
 	<TargetName>main</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>

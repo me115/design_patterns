@@ -7,21 +7,8 @@
 
 #include "Obeserver.h"
 
-
 Obeserver::Obeserver(){
-
 }
-
-
 
 Obeserver::~Obeserver(){
-
-}
-
-
-
-
-
-void Obeserver::update(){
-
 }
