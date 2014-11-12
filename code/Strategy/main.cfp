@@ -18,12 +18,12 @@
 	<File>Context.h</File>
 	<File>Strategy.cpp</File>
 	<File>Strategy.h</File>
-<Attribute topline="13" x="1" y="23">main.cpp</Attribute>
-<Attribute topline="13" x="1" y="19">ConcreteStrategyA.cpp</Attribute>
-<Attribute topline="7" x="1" y="15">ConcreteStrategyA.h</Attribute>
+<Attribute topline="1" x="31" y="10">main.cpp</Attribute>
+<Attribute topline="7" x="21" y="20">ConcreteStrategyA.cpp</Attribute>
+<Attribute topline="7" x="47" y="23">ConcreteStrategyA.h</Attribute>
 <Attribute topline="13" x="1" y="28">ConcreteStrategyB.cpp</Attribute>
-<Attribute topline="1" x="21" y="8">Context.cpp</Attribute>
-<Attribute topline="10" x="24" y="25">Context.h</Attribute>
+<Attribute topline="7" x="2" y="22">Context.cpp</Attribute>
+<Attribute topline="10" x="14" y="13">Context.h</Attribute>
 <Attribute topline="1" x="1" y="17">Strategy.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>

@@ -18,13 +18,13 @@
 	<File>Context.h</File>
 	<File>State.cpp</File>
 	<File>State.h</File>
-<Attribute topline="1" x="15" y="13">main.cpp</Attribute>
-<Attribute topline="1" x="20" y="10">ConcreteStateA.cpp</Attribute>
-<Attribute topline="7" x="25" y="19">ConcreteStateA.h</Attribute>
+<Attribute topline="1" x="6" y="13">main.cpp</Attribute>
+<Attribute topline="13" x="3" y="26">ConcreteStateA.cpp</Attribute>
+<Attribute topline="7" x="26" y="25">ConcreteStateA.h</Attribute>
 <Attribute topline="5" x="1" y="10">ConcreteStateB.cpp</Attribute>
 <Attribute topline="4" x="28" y="17">ConcreteStateB.h</Attribute>
-<Attribute topline="4" x="1" y="15">Context.cpp</Attribute>
-<Attribute topline="7" x="17" y="21">Context.h</Attribute>
+<Attribute topline="10" x="27" y="13">Context.cpp</Attribute>
+<Attribute topline="13" x="24" y="26">Context.h</Attribute>
 <Attribute topline="10" x="1" y="26">State.cpp</Attribute>
 <Attribute topline="1" x="1" y="11">State.h</Attribute>
 <FolderState>111</FolderState>

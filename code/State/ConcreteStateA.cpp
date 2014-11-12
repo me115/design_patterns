@@ -13,15 +13,10 @@ using namespace std;
 
 State * ConcreteStateA::m_pState = NULL;
 ConcreteStateA::ConcreteStateA(){
-
 }
-
-
 
 ConcreteStateA::~ConcreteStateA(){
-
 }
-
 
 State * ConcreteStateA::Instance()
 {
@@ -31,7 +26,6 @@ State * ConcreteStateA::Instance()
 	}
 	return m_pState;
 }
-
 
 void ConcreteStateA::handle(Context * c){
 	cout << "doing something in State A.\n done,change state to B" << endl;

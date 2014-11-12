@@ -50,4 +50,6 @@
    command
    mediator
    observer
+   state
+   strategy
 

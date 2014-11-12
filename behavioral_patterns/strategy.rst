@@ -30,20 +30,40 @@
 - ConcreteStrategy: 具体策略类
 
 
-.. image:: /_static/SimpleFactory.jpg
+.. image:: /_static/Strategy.jpg
 
 
 时序图
 --------------------
-.. image:: /_static/seq_SimpleFactory.jpg
+.. image:: /_static/seq_Strategy.jpg
 
 代码分析
 --------------------
-.. literalinclude:: /code/SimpleFactory/Factory.cpp
+.. literalinclude:: /code/Strategy/main.cpp
    :language: cpp
    :linenos:
-   :lines: 1-10,24-
-   :emphasize-lines: 12-19
+   :emphasize-lines: 10-17
+
+.. literalinclude:: /code/Strategy/Context.h
+   :language: cpp
+   :linenos:
+
+.. literalinclude:: /code/Strategy/Context.cpp
+   :language: cpp
+   :linenos:
+   :emphasize-lines: 16-22
+
+.. literalinclude:: /code/Strategy/ConcreteStrategyA.h
+   :language: cpp
+   :linenos:
+
+.. literalinclude:: /code/Strategy/ConcreteStrategyA.cpp
+   :language: cpp
+   :linenos:
+
+运行结果：
+
+.. image:: /_static/Strategy_run.jpg
 
 
 模式分析
@@ -52,7 +72,7 @@
 
 - 在策略模式中，应当由客户端自己决定在什么情况下使用什么具体策略角色。
 
--策略模式仅仅封装算法，提供新算法插入到已有系统中，以及老算法从系统中“退休”的方便，策略模式并不决定在何时使用何种算法，算法的选择由客户端来决定。这在一定程度上提高了系统的灵活性，但是客户端需要理解所有具体策略类之间的区别，以便选择合适的算法，这也是策略模式的缺点之一，在一定程度上增加了客户端的使用难度。
+- 策略模式仅仅封装算法，提供新算法插入到已有系统中，以及老算法从系统中“退休”的方便，策略模式并不决定在何时使用何种算法，算法的选择由客户端来决定。这在一定程度上提高了系统的灵活性，但是客户端需要理解所有具体策略类之间的区别，以便选择合适的算法，这也是策略模式的缺点之一，在一定程度上增加了客户端的使用难度。
 
 实例
 --------------------
