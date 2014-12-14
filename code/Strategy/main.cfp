@@ -18,9 +18,9 @@
 	<File>Context.h</File>
 	<File>Strategy.cpp</File>
 	<File>Strategy.h</File>
-<Attribute topline="1" x="31" y="10">main.cpp</Attribute>
+<Attribute topline="22" x="14" y="28">main.cpp</Attribute>
 <Attribute topline="7" x="21" y="20">ConcreteStrategyA.cpp</Attribute>
-<Attribute topline="7" x="47" y="23">ConcreteStrategyA.h</Attribute>
+<Attribute topline="7" x="7" y="13">ConcreteStrategyA.h</Attribute>
 <Attribute topline="13" x="1" y="28">ConcreteStrategyB.cpp</Attribute>
 <Attribute topline="7" x="2" y="22">Context.cpp</Attribute>
 <Attribute topline="10" x="14" y="13">Context.h</Attribute>
