@@ -25,7 +25,7 @@ RefinedAbstraction::~RefinedAbstraction(){
 
 void RefinedAbstraction::operation(){
 	cout << "do something else ,and then " << endl;
-	m_pImp->operationImp();
+	imp->operationImp();
 }
 
  
