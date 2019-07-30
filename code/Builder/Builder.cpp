@@ -38,5 +38,5 @@ void Builder::buildPartC(){
 
 
 Product* Builder::getResult(){
-	return m_prod;
+	return &m_prod;
 }
