@@ -21,6 +21,6 @@ public:
 	virtual void buildPartC();
 	virtual Product * getResult();
 protected :
-	Product * m_prod;
+	Product  m_prod;
 };
 #endif // !defined(EA_938F1725_29F0_4174_93A3_D49DAB5D16A0__INCLUDED_)
