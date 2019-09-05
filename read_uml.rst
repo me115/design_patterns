@@ -122,7 +122,7 @@ B不知道A；
 
 关于时序图，以下这篇文章将概念介绍的比较详细；更多实例应用，参见后续章节模式中的时序图；
 
-http://smartlife.blog.51cto.com/1146871/284874
+http://www.uml.org.cn/oobject/201009081.asp
 
 
 附录
