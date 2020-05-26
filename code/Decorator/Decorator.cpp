@@ -8,8 +8,7 @@
 #include "Decorator.h"
 
 
-Decorator::Decorator(Component* pcmp){
-	m_pComponent = pcmp;
+Decorator::Decorator(Component* pcmp)： m_pComponent(pcmp){
 }
 
 Decorator::~Decorator(){
