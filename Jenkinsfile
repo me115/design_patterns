@@ -10,7 +10,7 @@ pipeline {
 
     stage('secondary') {
       steps {
-        mail(subject: 'Jenkins step', body: 'Testing')
+        mail(subject: 'Jenkins step', body: 'Testing', to: 'daniel.gallo1989@gmail.com')
       }
     }
 
