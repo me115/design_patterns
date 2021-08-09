@@ -37,5 +37,6 @@ int main(int argc, char *argv[])
 	delete pa2;
 	delete pb2;	
 	
+	//return exit code
 	return 0;
 }
