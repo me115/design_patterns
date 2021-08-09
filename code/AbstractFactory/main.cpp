@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
 	pa2->use();
 	pb2->eat();
 	
+
+	//Delete created objects for avoiding memory leaks
 	delete fc;
 	delete pa;
 	delete pb;
