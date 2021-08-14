@@ -15,12 +15,16 @@ public:
 	virtual ~Singleton();
 	Singleton *m_Singleton;
 
+	//Entry point to method is static and public
 	static Singleton* getInstance();
+
+	//This function represents the actual operation performed over the object
 	void singletonOperation();
 
 private:
 	static Singleton * instance;
 
+	//Constructor shall be declared as private
 	Singleton();
 
 };
