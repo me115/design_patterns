@@ -41,6 +41,11 @@
    :linenos:
    :emphasize-lines: 7-8
 
+.. literalinclude:: /code/Singleton/Singleton.h
+   :language: cpp
+   :linenos:
+   :emphasize-lines: 21-28
+
 .. literalinclude:: /code/Singleton/Singleton.cpp
    :language: cpp
    :linenos:
