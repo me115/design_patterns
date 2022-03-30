@@ -14,10 +14,6 @@ Singleton::Singleton(){
 
 }
 
-Singleton::~Singleton(){
-	delete instance;
-}
-
 Singleton* Singleton::getInstance(){
 	if (instance == NULL)
 	{
